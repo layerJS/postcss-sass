@@ -1,0 +1,246 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`parses comments.sass 1`] = `
+"{
+  \\"raws\\": {
+    \\"before\\": \\"\\"
+  },
+  \\"type\\": \\"root\\",
+  \\"nodes\\": [
+    {
+      \\"raws\\": {
+        \\"before\\": \\"\\",
+        \\"inline\\": false,
+        \\"left\\": \\" \\",
+        \\"right\\": \\" \\",
+        \\"text\\": \\"multi\\\\n   line\\"
+      },
+      \\"type\\": \\"comment\\",
+      \\"text\\": \\"multi\\\\n   line\\"
+    },
+    {
+      \\"raws\\": {
+        \\"before\\": \\"\\\\n\\",
+        \\"inline\\": true,
+        \\"left\\": \\" \\",
+        \\"right\\": \\"\\",
+        \\"text\\": \\"inline\\"
+      },
+      \\"type\\": \\"comment\\",
+      \\"text\\": \\"inline\\"
+    },
+    {
+      \\"raws\\": {
+        \\"before\\": \\"\\\\n\\",
+        \\"between\\": \\"\\"
+      },
+      \\"type\\": \\"rule\\",
+      \\"nodes\\": [
+        {
+          \\"raws\\": {
+            \\"before\\": \\"\\\\n  \\",
+            \\"between\\": \\": \\",
+            \\"semicolon\\": false
+          },
+          \\"type\\": \\"decl\\",
+          \\"prop\\": \\"color\\",
+          \\"value\\": \\"black\\",
+          \\"source\\": {
+            \\"start\\": {
+              \\"line\\": 5,
+              \\"column\\": 3
+            },
+            \\"end\\": {
+              \\"line\\": 5,
+              \\"column\\": 14
+            },
+            \\"input\\": {
+              \\"file\\": \\"comments.sass\\"
+            }
+          }
+        },
+        {
+          \\"raws\\": {
+            \\"before\\": \\"\\\\n \\",
+            \\"inline\\": true,
+            \\"left\\": \\" \\",
+            \\"right\\": \\"\\",
+            \\"text\\": \\"last\\"
+          },
+          \\"type\\": \\"comment\\",
+          \\"text\\": \\"last\\"
+        },
+        {
+          \\"raws\\": {
+            \\"before\\": \\"\\\\n  \\",
+            \\"between\\": \\": \\",
+            \\"semicolon\\": false
+          },
+          \\"type\\": \\"decl\\",
+          \\"prop\\": \\"z-index\\",
+          \\"value\\": \\"1\\",
+          \\"source\\": {
+            \\"start\\": {
+              \\"line\\": 6,
+              \\"column\\": 3
+            },
+            \\"end\\": {
+              \\"line\\": 6,
+              \\"column\\": 12
+            },
+            \\"input\\": {
+              \\"file\\": \\"comments.sass\\"
+            }
+          }
+        }
+      ],
+      \\"selector\\": \\"a\\",
+      \\"source\\": {
+        \\"start\\": {
+          \\"line\\": 4,
+          \\"column\\": 1
+        },
+        \\"end\\": {
+          \\"line\\": 6,
+          \\"column\\": 13
+        },
+        \\"input\\": {
+          \\"file\\": \\"comments.sass\\"
+        }
+      }
+    },
+    {
+      \\"raws\\": {
+        \\"before\\": \\"\\\\n\\\\n\\",
+        \\"inline\\": true,
+        \\"left\\": \\" \\",
+        \\"right\\": \\"\\",
+        \\"text\\": \\"a\\\\n  // color: black\\"
+      },
+      \\"type\\": \\"comment\\",
+      \\"text\\": \\"a\\\\n  // color: black\\"
+    }
+  ],
+  \\"source\\": {
+    \\"start\\": {
+      \\"line\\": 1,
+      \\"column\\": 1
+    },
+    \\"end\\": {
+      \\"line\\": 9,
+      \\"column\\": 18
+    },
+    \\"input\\": {
+      \\"file\\": \\"comments.sass\\"
+    }
+  }
+}"
+`;
+
+exports[`parses empty.sass 1`] = `
+"{
+  \\"raws\\": {
+    \\"before\\": \\"\\"
+  },
+  \\"type\\": \\"root\\",
+  \\"nodes\\": [
+    {
+      \\"raws\\": {
+        \\"before\\": \\"\\",
+        \\"inline\\": true,
+        \\"left\\": \\"\\",
+        \\"right\\": \\"\\"
+      },
+      \\"type\\": \\"comment\\",
+      \\"text\\": \\"\\"
+    }
+  ],
+  \\"source\\": {
+    \\"start\\": {
+      \\"line\\": 1,
+      \\"column\\": 1
+    },
+    \\"end\\": {
+      \\"line\\": 1,
+      \\"column\\": 3
+    },
+    \\"input\\": {
+      \\"file\\": \\"empty.sass\\"
+    }
+  }
+}"
+`;
+
+exports[`parses important.sass 1`] = `
+"{
+  \\"raws\\": {
+    \\"before\\": \\"\\"
+  },
+  \\"type\\": \\"root\\",
+  \\"nodes\\": [
+    {
+      \\"raws\\": {
+        \\"before\\": \\"\\",
+        \\"between\\": \\": \\",
+        \\"semicolon\\": false,
+        \\"important\\": \\" !important\\"
+      },
+      \\"type\\": \\"decl\\",
+      \\"prop\\": \\"long\\",
+      \\"important\\": true,
+      \\"value\\": \\"black\\",
+      \\"source\\": {
+        \\"start\\": {
+          \\"line\\": 1,
+          \\"column\\": 1
+        },
+        \\"end\\": {
+          \\"line\\": 1,
+          \\"column\\": 22
+        },
+        \\"input\\": {
+          \\"file\\": \\"important.sass\\"
+        }
+      }
+    },
+    {
+      \\"raws\\": {
+        \\"before\\": \\"\\\\n\\",
+        \\"between\\": \\": \\",
+        \\"semicolon\\": false,
+        \\"important\\": \\"!important\\"
+      },
+      \\"type\\": \\"decl\\",
+      \\"prop\\": \\"short\\",
+      \\"important\\": true,
+      \\"value\\": \\"black\\",
+      \\"source\\": {
+        \\"start\\": {
+          \\"line\\": 2,
+          \\"column\\": 1
+        },
+        \\"end\\": {
+          \\"line\\": 2,
+          \\"column\\": 22
+        },
+        \\"input\\": {
+          \\"file\\": \\"important.sass\\"
+        }
+      }
+    }
+  ],
+  \\"source\\": {
+    \\"start\\": {
+      \\"line\\": 1,
+      \\"column\\": 1
+    },
+    \\"end\\": {
+      \\"line\\": 2,
+      \\"column\\": 23
+    },
+    \\"input\\": {
+      \\"file\\": \\"important.sass\\"
+    }
+  }
+}"
+`;

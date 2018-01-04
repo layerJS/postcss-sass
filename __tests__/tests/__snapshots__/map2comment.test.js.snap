@@ -6,9 +6,10 @@ Object {
     Object {
       "raws": Object {
         "before": "",
-        "commentType": "multi",
+        "inline": false,
         "left": " ",
         "right": " ",
+        "text": "Comment",
       },
       "text": "Comment",
       "type": "comment",
@@ -156,11 +157,11 @@ $button-colors:
     Object {
       "raws": Object {
         "before": "
-
 ",
-        "commentType": "single",
+        "inline": true,
         "left": " ",
         "right": "",
+        "text": "Comment",
       },
       "text": "Comment",
       "type": "comment",
@@ -240,6 +241,7 @@ $button-colors:
       ],
       "raws": Object {
         "before": "
+
 ",
         "between": "",
       },

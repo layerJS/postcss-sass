@@ -9,9 +9,10 @@ Object {
           "raws": Object {
             "before": "
     ",
-            "commentType": "single",
+            "inline": true,
             "left": " ",
             "right": "",
+            "text": "Comment1",
           },
           "text": "Comment1",
           "type": "comment",
@@ -20,6 +21,7 @@ Object {
           "prop": "color",
           "raws": Object {
             "before": "
+
     ",
             "between": ": ",
             "semicolon": false,
@@ -50,9 +52,10 @@ Object {
           "raws": Object {
             "before": "
     ",
-            "commentType": "multi",
+            "inline": false,
             "left": " ",
             "right": " ",
+            "text": "Comment2",
           },
           "text": "Comment2",
           "type": "comment",
@@ -61,6 +64,7 @@ Object {
           "prop": "background-color",
           "raws": Object {
             "before": "
+
     ",
             "between": ": ",
             "semicolon": false,

@@ -485,9 +485,10 @@ $list-2-dim: ((7 8) (9 10))
             "before": "
         
 ",
-            "commentType": "single",
+            "inline": true,
             "left": " ",
             "right": "",
+            "text": "Comment",
           },
           "text": "Comment",
           "type": "comment",
